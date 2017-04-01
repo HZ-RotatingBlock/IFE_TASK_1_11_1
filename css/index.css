@@ -1,6 +1,6 @@
 /*样式重置*/
 body,h1,h2,h3,ul,li,p{margin:0;padding:0}
-body{ font:12px/1.5 "宋体",arial, verdana, sans-serif}
+body{ font:12px/1.5 "Microsoft YaHei",arial, verdana, sans-serif}
 h1,h2,h3{font-size:100%;font-weight:normal}
 li{list-style:none}
 img{border:0}
@@ -79,7 +79,7 @@ li.nav_list:hover{
 	left:0;
 	width:100%;
 	height:auto;
-	background-color:#eee;
+	background-color:#fff;
 }
 /*幻灯开始*/
 .carousel{
@@ -92,6 +92,96 @@ li.nav_list:hover{
 	background-size:cover;
 }
 /*幻灯结束*/
+/*标签栏开始*/
+ul.tag_side{
+	margin:2.74rem auto 0;
+	width:100%;
+	height:1.47rem;
+	border-bottom:0.02rem solid #eee;
+}
+li.tag_side_list{
+	float:left;
+	position:relative;
+	margin-left:11%;
+	width:9%;
+	height:1.47rem;
+}
+li.tag_side_list:nth-child(1){
+	margin-left:5.5%;
+}
+img.tag_side_list_icon{
+	position:absolute;
+	top:0.22rem;
+	left:50%;
+	-webkit-transform:translateY(-50%);
+	transform:translateX(-50%);
+	width:0.6rem;
+	height:0.6rem;
+	height:auto;
+}
+h3.tag_side_list_h3{
+	position:absolute;
+	left:50%;
+	-webkit-transform:translateY(-50%);
+	transform:translateX(-50%);
+	bottom:0.37rem;
+	width:150%;
+	font-size:0.16rem;
+	line-height:0.16rem;
+	text-align:center;
+}
+/*标签栏结束*/
+/*分栏开始*/
+ul.subfield{
+	position:relative;
+	margin-top:0;
+	width:100%;
+	height:2.27rem;
+	border-bottom:18px solid #eee;
+}
+li.subfield_part{
+	float:left;
+}
+li.subfield_part:first-child,li.subfield_part:last-child{
+	width:35%;
+	height:2.09rem;
+	text-align:center;
+}
+li.subfield_part:last-child img.subfield_part_img{
+	width:1rem;
+	height:.66rem;
+}
+li.subfield_part:nth-child(2){
+	width:calc(30% - 0.02rem);
+	height:2.09rem;
+	text-align:center;
+	border-right:0.01rem solid #eee;
+	border-left:0.01rem solid #eee;
+}
+img.subfield_part_img{
+	display:inline-block;
+	width:0.65rem;
+	height:0.9rem;
+	margin:0 auto;
+}
+h2.subfield_part_title{
+	margin-top:-0.2rem;
+	font-size:0.22rem;
+	line-height:0.22rem;
+}
+h3.subfield_part_littleTitle{
+	margin-top:0.1rem;
+	font-size:0.16rem;
+	line-height:0.16rem;
+}
+/*分栏结束*/
+/*模块部分开始*/
+.model{
+	margin-top:0;
+}
+/*模块部分结束*/
+
+
 
 /*主体开始*/
 
