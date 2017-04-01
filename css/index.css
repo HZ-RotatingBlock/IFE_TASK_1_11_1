@@ -1,5 +1,5 @@
 /*样式重置*/
-body,h1,h2,h3,,ul,li,p,{margin:0;padding:0}
+body,h1,h2,h3,ul,li,p{margin:0;padding:0}
 body{ font:12px/1.5 "宋体",arial, verdana, sans-serif}
 h1,h2,h3{font-size:100%;font-weight:normal}
 li{list-style:none}
@@ -44,3 +44,54 @@ body,html{
 	text-align:center;
 }
 /*标题栏结束*/
+/*导航栏开始*/
+.nav{
+	position:absolute;
+	top:0.57rem;
+	left:0;
+	width:100%;
+	height:0.58rem;
+	background-color:#fff;
+}
+ul.nav_ul{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+}
+li.nav_list{
+	float:left;
+	width:20%;
+	font-size:0.19rem;
+	line-height:0.54rem;
+	text-align:center;
+	color:#000;
+}
+li.nav_list:hover{
+	border-bottom:0.04rem solid #8ed8d7;
+	cursor:pointer;
+}
+/*导航栏结束*/
+/*主体开始*/
+.content{
+	position:absolute;
+	top:1.15rem;
+	left:0;
+	width:100%;
+	height:auto;
+	background-color:#eee;
+}
+/*幻灯开始*/
+.carousel{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:2.74rem;
+	background:url(../images/carousel_img.jpg) no-repeat center;
+	background-size:cover;
+}
+/*幻灯结束*/
+
+/*主体开始*/
+
