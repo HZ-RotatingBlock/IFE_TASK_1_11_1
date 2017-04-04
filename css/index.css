@@ -179,6 +179,63 @@ h3.subfield_part_littleTitle{
 .model{
 	margin-top:0;
 }
+.model_01,.model_02{
+	position:relative;
+	margin-top:0;
+	width:100%;
+	height:3.405rem;
+	border-bottom:0.175rem solid #eee;
+}
+.model_title{
+	margin:0 auto;
+	width:calc(100% - 0.32rem);
+	height:0.6rem;
+	font-size:0.215rem;
+	font-weight:700;
+	line-height:0.6rem;
+	text-align:left;
+	color:#656565;
+	border-bottom:0.03rem solid #eee;
+}
+.model_content_01{
+	margin-top:0.4rem;
+}
+.model_content_01,.model_content_02{
+	position:relative;
+	margin:0 auto;
+	margin-top:0.125rem;
+	margin-bottom:0.125rem;
+	width:calc(100% - 0.32rem);
+	height:1.25rem;
+}
+img.model_img{
+	position:absolute;
+	top:0;
+	left:0;
+	width:1.21rem;
+	height:1.13rem;
+}
+ul.model_content_document{
+	position:absolute;
+	right:0;
+	width:calc(100% - 1.21rem);
+	height:1.13rem;
+}
+li.model_content_document_list{
+	display:inline-block;
+	float:left;
+	margin-top:0.125rem;
+	margin-left:0.13rem;
+	width:calc(50% - 0.13rem);
+	font-size:0.17rem;
+	font-weight:700;
+	line-height:0.5rem;
+	text-align:center;
+	background-color:#f8f8f8;
+}
+li.model_content_document_list:nth-child(1),li.model_content_document_list:nth-child(2){
+	margin-top:0;
+}
 /*模块部分结束*/
 
 
