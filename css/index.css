@@ -237,6 +237,40 @@ li.model_content_document_list:nth-child(1),li.model_content_document_list:nth-c
 	margin-top:0;
 }
 /*模块部分结束*/
+/*文章部分开始*/
+.artical{
+	margin-top:0;
+}
+li.artical_list{
+	position:relative;
+	padding:0.15rem;
+	width:calc(100% - 0.3rem);
+	height:1rem;
+	border-bottom:0.02rem solid #eee;
+}
+img.artical_list_images{
+	position:absolute;
+	top:0.15rem;
+	left:0.15rem;
+	width:1.4rem;
+	height:0.99rem;
+}
+h2.artical_list_title{
+	margin-left:1.55rem;
+	font-size:0.22rem;
+	font-weight:700;
+	line-height:0.28rem;
+}
+.artical_list_source{
+	position:absolute;
+	bottom:0.16rem;
+	left:1.71rem;
+	font-size:0.16rem;
+	font-weight:500;
+	line-height:0.16rem;
+}
+/*文章部分结束*/
+
 
 
 
