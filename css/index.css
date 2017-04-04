@@ -191,7 +191,7 @@ h3.subfield_part_littleTitle{
 	width:calc(100% - 0.32rem);
 	height:0.6rem;
 	font-size:0.215rem;
-	font-weight:700;
+	font-weight:500;
 	line-height:0.6rem;
 	text-align:left;
 	color:#656565;
@@ -228,7 +228,7 @@ li.model_content_document_list{
 	margin-left:0.13rem;
 	width:calc(50% - 0.13rem);
 	font-size:0.17rem;
-	font-weight:700;
+	font-weight:500;
 	line-height:0.5rem;
 	text-align:center;
 	background-color:#f8f8f8;
@@ -258,16 +258,52 @@ img.artical_list_images{
 h2.artical_list_title{
 	margin-left:1.55rem;
 	font-size:0.22rem;
-	font-weight:700;
+	font-weight:500;
 	line-height:0.28rem;
 }
-.artical_list_source{
+.artical_list_source,.artical_list_bottom_source{
 	position:absolute;
 	bottom:0.16rem;
 	left:1.71rem;
 	font-size:0.16rem;
 	font-weight:500;
 	line-height:0.16rem;
+}
+li.artical_list:last-child{
+	height:auto;
+	border-bottom:0.68rem solid #eee;
+	height:2rem;
+}
+li.artical_list:last-child h2.artical_list_title{
+	margin-top:0;
+	margin-left:0rem;
+	line-height:0.22rem;
+}
+.artical_list_img{
+	display:inline-block;
+	margin-top:0.14rem;
+	margin-left:0;
+	width:100%;
+	height:auto;
+}
+li.artical_list:last-child img.artical_list_images{
+	float: left;
+	position:relative;
+	top:0rem;
+	left:0rem;
+	margin-top:0rem;
+	margin-right:0.5%;
+	width:33%;
+	height:auto;
+	max-height:1.02rem;
+}
+li.artical_list:last-child img:last-child{
+	margin-right:0;
+}
+.artical_list_bottom_source{
+	position:absolute;
+	bottom:0.15rem;
+	left:0.15rem;
 }
 /*文章部分结束*/
 
